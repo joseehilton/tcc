@@ -1,0 +1,371 @@
+* {margin: 0;padding: 0;border: 0;outline: 0;vertical-align:baseline;} 
+
+/* "Nimbus Sans L": especial para o Chrome/Linux */
+body {line-height: 1;font:normal 14px Arial, Verdana, Helvetica, "Nimbus Sans L", Sans-serif; color:#6a6a6a;height:100%;min-width:990px;}
+ol, ul {list-style: none;} 
+:focus {outline: 0;}
+
+/* geral
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+a{text-decoration:none;color:#404040;}
+a:hover{text-decoration:underline;}
+ul{list-style:none;}
+.floatLeft{float: left!important;}
+.floatRight{float: right!important;}
+.floatLeftImg{float: left;padding: 0px 10px 10px 0px;}
+.floatRightImg{float: right;padding: 0px 0px 10px 10px;}
+.clear{clear:both;}
+.fonteAzul{color:#285083;}
+.espacTop{margin-top:15px;}
+.espacBottom{margin-bottom:15px;}
+.center{text-align:center;}
+
+/* lista */
+.lista{float:left;}
+.lista li{background:url("/images/bullet-azul.gif") no-repeat 0px 3px;padding-left:25px;padding-bottom:15px;}
+
+/* zeram padding */
+.paddingRightZero{padding-right:0px!important;}
+.paddingBottomZero{padding-bottom:0px!important;}
+
+
+/* titulos
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+h1{display:block;font-size:20px;line-height:38px;color:#fff;background-color:#285083;padding:2px 0 0 5px;margin-bottom:30px;text-transform:uppercase;}
+h2{color:#285083;font-size:16px;display:block;border-bottom:1px solid #e3e3e3;margin-bottom:20px;}
+
+/* divs gerais
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+#wrapperFull{width:100%;}
+#wrapper{width:100%;float:left;}
+#wrapperContent{width:990px;margin:0 auto;}
+#navSection{float:left;width:990px;border-bottom:2px solid #f5f5f5;height:30px;padding:10px 0 0 0;margin-bottom:20px;}
+
+/* topo
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+#header{width:100%;height:374px;position:relative;}
+
+#header #faixaMenuTop{float:left;width:100%;height:46px;padding-top:8px;background:url("/images/cor-box.png") repeat 0 0;text-align:left;}
+#header #menuTop{margin:0px auto;width:990px;}
+#header #menuTop #guardaMenuTop{float:left;width:990px;height:54px;}
+#header #menuTop #guardaMenuTop #logoMetro{float: left;padding-left:20px;}
+#header #menuTop #guardaMenuTop #logoMetro img{float: left;}
+#header #menuTop #linksMenuTop{float:right;padding:12px 20px 0px 0px;}
+#header #menuTop #linksMenuTop ul{float:left;}
+#header #menuTop #linksMenuTop ul li{float:left;font-size:11px;color:#FFF!important;padding-right:19px;}
+#header #menuTop #linksMenuTop ul li a{color:#FFF!important;}
+#header #menuTop #compartilheTop{width:185px;float:right;padding-top:7px;}
+#header #menuTop #compartilheTop ul{float:left;}
+#header #menuTop #compartilheTop ul li{float:left;padding-right:7px;}
+
+/* menu do site */
+#header #menuSite{float:left;width:990px;height:46px;background:url("/images/px-menu.gif") repeat 0 0;text-align:left;position:absolute;bottom:0;left:50%;margin-left:-495px;}
+#header #menuSite ul{width:900px;float:left;overflow:hidden;}
+#header #menuSite ul li{float:left;height:46px;padding: 0 2px 0 0;background:url("/images/divisao-menu.gif") no-repeat right 5px;}
+#header #menuSite ul li#ultimaLiMenuSite{padding:0px!important;background:none!important;}
+#header #menuSite ul li a{font-weight:bold;font-size:13px;color:#313131;float:left;}
+#header #menuSite ul li a img{visibility:hidden;padding-top:1px;}
+#header #menuSite ul li a img, #header #menuSite ul li a span{float:left;}
+#header #menuSite ul li a span {padding:14px 10px 14px 10px;cursor:pointer;}					
+#header #menuSite ul li a.menuTopMarcado, #header #menuSite ul li a:hover{color:#fff;text-decoration:none;}
+#header #menuSite ul li a.menuTopMarcado span{background:url("/images/px-over-menu.gif") repeat-x 0 1px;}
+#header #menuSite ul li a.menuTopMarcado img{visibility:visible;}
+
+/* busca */
+#header #busca{width:80px;height:46px;float:left;margin-top:5px;}
+
+/* busca */
+#search{width:174px;height:30px;float:right;background:url("/images/background-busca.gif") no-repeat left 3px;}
+#search input.gsc-input {float:left;width:130px;font-size:10px;color:#9b9a9a;margin:3px 5px 0px;border:none!important;background:none!important;}
+#search input.gsc-search-button {width:28px;height:27px;border:0px;background:url("/images/botao-busca.gif") no-repeat 0px 0px;float:left;cursor:pointer;margin:3px 10px 0 0; text-indent:-9999px;}
+#search .gsc-clear-button,#search .gsc-branding{display:none;}
+#search .gsc-search-button{width:28px!important;margin:3px 0 0 0!important}
+#search .gsc-input{padding-right: 0px!important;}
+.cse input.gsc-search-button, input.gsc-search-button{
+	min-width: 0px!important;
+}
+/* faixa utilidades
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+/* breadcrumbs */
+#navSection #bread{float:left;color:#285083;font-size:12px;width:840px;}
+#navSection #bread span span{float:left;}
+#navSection #bread a{display:none;}
+#navSection #bread span span a{display:block!important;padding: 0 10px 0 0px!important;background:url("/images/bullet-bread.gif") no-repeat right 4px;margin:0 5px 0 0;color:#777;font-size:12px;}
+
+/* altera fonte */
+#alteraFonte{float:left;width:50px;}
+#alteraFonte ul li{float:left;width:25px;text-align:center;font-size:12px;}
+
+/* compartilhe */
+#compartilhe{float:left;width:90px;font-size:12px;padding-left:10px;}
+#compartilhe a{font-weight:bold;color:#858585;background:url("/images/compartilhe-metro.jpg") no-repeat 0 0;padding-left:20px;}
+
+/* menu lateral 
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+#menuLateral{font-size:14px;margin-right:20px;}
+#menuLateral, #menuLateral ul, #menuLateral ul li{width:174px;float:left; }
+#menuLateral ul li .liMaior{width:150px;}
+#menuLateral #menuLinhas ul, #menuLateral ul li ul, #menuLateral ul li ul li ul{display:none;}
+
+/* primeiro nivel */
+#menuLateral ul li a {padding:12px 0 11px 10px;background:url("/images/divisao-menu-lateral.gif") no-repeat 0px 15px;display:block;border-bottom:1px solid #e3e3e3;color:#6c6c6c;}
+#menuLateral ul li#ultimaLi a{border:none;}
+#menuLateral ul li#ultimaLi ul{border-top:1px solid #e3e3e3;border-bottom:none;}
+
+/* segundo nivel */
+#menuLateral ul li ul{padding:0px 0 10px 10px;width:164px;}
+#menuLateral ul li ul li{padding-top:10px;width:164px;}
+#menuLateral ul li ul li a{border-bottom:none;background:none;padding:0 0 0 10px;margin:0;background:url("/images/bullet-menu-cinza.gif") no-repeat 0px 5px;color:#858585;text-decoration:none;}
+#menuLateral ul li ul li a.menuLatMarcado, #menuLateral ul li ul li a:hover{background:url("/images/bullet-menu-azul.gif") no-repeat 0px 5px;color:#285083;}
+
+/* terceiro nivel */
+#menuLateral ul li ul li ul{padding:0px 0 5px 20px;width:144px;border-top:none!important;}
+#menuLateral ul li ul li{padding-top:10px;width:144px;}
+
+/* menu lateral > linhas
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+#menuLateral #menuLinhas ul, #menuLateral #menuLinhas ul li{width:174px;padding-left:0px!important;}
+
+#menuLateral #menuLinhas ul li{border:none!important;}
+#menuLateral #menuLinhas ul li a.linkLinha,
+#menuLateral #menuLinhas ul li a.linkLinha:hover, #menuLinhas ul li a.linkLinha.menuLatMarcado{height:20px;padding:3px 0px 0px 29px;font-size:15px;background-repeat:no-repeat;background-position:0px 0px;color:#285083;}
+#menuLateral #menuLinhas ul li ul{border:none;background-position:10px 0px;background-repeat:repeat-y!important;padding:13px 0px 0px 0px!important;}
+#menuLateral #menuLinhas ul li ul li a{padding-left:30px;background-position:5px 2px;background-repeat:no-repeat;}
+#menuLateral #menuLinhas ul li ul li a:hover, 
+#menuLateral #menuLinhas ul li ul li a.menuLatMarcado{background-position:5px 1px;background-repeat:no-repeat;}
+
+#menuLateral #menuLinhas #linha1 li a.linkLinha,
+#menuLateral #menuLinhas #linha2 li a.linkLinha,
+#menuLateral #menuLinhas #linha3 li a.linkLinha,
+#menuLateral #menuLinhas #linha5 li a.linkLinha,
+#menuLateral #menuLinhas #linha15 li a.linkLinha{background-image:url('/sua-viagem/images/linhas/icone-linha-azul.gif');}
+
+#menuLateral #menuLinhas #linha1 li ul{background-image:url('/sua-viagem/images/linhas/px-azul.gif');}
+#menuLateral #menuLinhas #linha1 li ul li a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-azul.gif');}
+#menuLateral #menuLinhas #linha1 li ul li a:hover, 
+#menuLateral #menuLinhas #linha1 li ul li a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bulet-estacao-azul-hover.gif');}
+#menuLateral #menuLinhas #linha1 li ul li.ultimaLinha a{background-image:url('/sua-viagem/images/linhas/bulet-estacao-azul-ultimo.gif');}
+#menuLateral #menuLinhas #linha1 li ul li.ultimaLinha a:hover, 
+#menuLateral #menuLinhas #linha1 li ul li.ultimaLinha a.marcado, 
+#menuLateral #menuLinhas #linha1 li ul li.ultimaLinha a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bulet-estacao-azul-hover-ultimo.gif');}
+
+
+#menuLateral #menuLinhas #linha2 li a.linkLinha{/*background-image:url('/sua-viagem/images/linhas/icone-linha-verde.gif');*/color:#006d58;}
+#menuLateral #menuLinhas #linha2 li ul{background-image:url('/sua-viagem/images/linhas/px-verde.gif');}
+#menuLateral #menuLinhas #linha2 li ul li a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-verde.gif');}
+#menuLateral #menuLinhas #linha2 li ul li a:hover, 
+#menuLateral #menuLinhas #linha2 li ul li a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-verde-hover.gif');color:#006d58;}
+#menuLateral #menuLinhas #linha2 li ul li.ultimaLinha a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-verde-ultimo.gif');}
+#menuLateral #menuLinhas #linha2 li ul li.ultimaLinha a:hover, 
+#menuLateral #menuLinhas #linha2 li ul li.ultimaLinha a.marcado, 
+#menuLateral #menuLinhas #linha2 li ul li.ultimaLinha a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-verde-hover-ultimo.gif');}
+
+
+#menuLateral #menuLinhas #linha3 li a.linkLinha{/*background-image:url('/sua-viagem/images/linhas/icone-linha-vermelha.gif');*/color:#de3e32;}
+#menuLateral #menuLinhas #linha3 li ul{background-image:url('/sua-viagem/images/linhas/px-vermelha.gif');}
+#menuLateral #menuLinhas #linha3 li ul li a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-vermelha.gif');}
+#menuLateral #menuLinhas #linha3 li ul li a:hover, 
+#menuLateral #menuLinhas #linha3 li ul li a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-vermelha-hover.gif');color:#de3e32;}
+#menuLateral #menuLinhas #linha3 li ul li.ultimaLinha a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-vermelha-ultimo.gif');}
+#menuLateral #menuLinhas #linha3 li ul li.ultimaLinha a:hover, 
+#menuLateral #menuLinhas #linha3 li ul li.ultimaLinha a.marcado, 
+#menuLateral #menuLinhas #linha3 li ul li.ultimaLinha a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-vermelha-hover-ultimo.gif');}
+
+#menuLateral #menuLinhas #linha4 li a.linkLinha{background-image:url('/sua-viagem/images/linhas/icone-linha-amarela.gif');color:#555654;}
+#menuLateral #menuLinhas #linha4 li ul{background-image:url('/sua-viagem/images/linhas/px-amarela.gif');}
+#menuLateral #menuLinhas #linha4 li ul li a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-amarela.gif');}
+#menuLateral #menuLinhas #linha4 li ul li a:hover, 
+#menuLateral #menuLinhas #linha4 li ul li a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-amarela-hover.gif');color:#555654;}
+#menuLateral #menuLinhas #linha4 li ul li.ultimaLinha a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-amarela-ultimo-ultimo.gif');}
+#menuLateral #menuLinhas #linha4 li ul li.ultimaLinha a:hover, 
+#menuLateral #menuLinhas #linha4 li ul li.ultimaLinha a.marcado, 
+#menuLateral #menuLinhas #linha4 li ul li.ultimaLinha a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-amarela-hover-ultimo.gif');}
+
+
+#menuLateral #menuLinhas #linha5 li a.linkLinha{/*background-image:url('/sua-viagem/images/linhas/icone-linha-lilas.gif');*/color:#8c3583;}
+#menuLateral #menuLinhas #linha5 li ul{background-image:url('/sua-viagem/images/linhas/px-lilas.gif');}
+#menuLateral #menuLinhas #linha5 li ul li a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-lilas.gif');}
+#menuLateral #menuLinhas #linha5 li ul li a:hover, 
+#menuLateral #menuLinhas #linha5 li ul li a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-lilas-hover.gif');color:#8c3583;}
+#menuLateral #menuLinhas #linha5 li ul li.ultimaLinha a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-lilas-ultimo.gif');}
+#menuLateral #menuLinhas #linha5 li ul li.ultimaLinha a:hover, 
+#menuLateral #menuLinhas #linha5 li ul li.ultimaLinha a.marcado, 
+#menuLateral #menuLinhas #linha5 li ul li.ultimaLinha a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-lilas-hover-ultimo.gif');}
+
+#menuLateral #menuLinhas #linha15 li a.linkLinha{/*background-image:url('/sua-viagem/images/linhas/icone-linha-lilas.gif');*/color:#8f8f8c;}
+#menuLateral #menuLinhas #linha15 li ul{background-image:url('/sua-viagem/images/linhas/px-prata.gif');}
+#menuLateral #menuLinhas #linha15 li ul li a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-prata.gif');}
+#menuLateral #menuLinhas #linha15 li ul li a:hover, 
+#menuLateral #menuLinhas #linha15 li ul li a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-prata-hover.gif');color:#171796;}
+#menuLateral #menuLinhas #linha15 li ul li.ultimaLinha a{background-image:url('/sua-viagem/images/linhas/bullet-estacao-prata-ultimo.gif');}
+#menuLateral #menuLinhas #linha15 li ul li.ultimaLinha a:hover, 
+#menuLateral #menuLinhas #linha15 li ul li.ultimaLinha a.marcado, 
+#menuLateral #menuLinhas #linha15 li ul li.ultimaLinha a.menuLatMarcado{background-image:url('/sua-viagem/images/linhas/bullet-estacao-prata-hover-ultimo.gif');}
+
+/* conteudo
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+#content,
+#conteudoPagina,
+#contentNoticias{width:796px;float:left;}
+
+#conteudoPagina p{padding-bottom:20px;line-height:17px;}
+#conteudoPagina h2{font:bold 16px Arial;color:#404040;border-bottom:1px solid #E3E3E3;line-height:20px;}
+#conteudoPagina h3{font:bold 14px Arial;color:#285083;background:url("/images/bullet-titulos.gif") no-repeat left 2px;padding-left:15px;padding-bottom:15px;text-transform:uppercase;}
+#conteudoPagina h4{font:bold 14px Arial;color:#6a6a6a;padding-bottom:15px;}
+
+#content.comLateral #conteudoPagina{width:584px!important;padding-right:20px;}
+
+/* aumenta fonte e line height */
+.font10 *{font-size:10px!important;line-height:13px!important;}
+.font12 *{font-size:12px!important;line-height:15px!important;}
+.font14 *{font-size:14px!important;line-height:17px!important;}
+.font16 *{font-size:16px!important;line-height:19px!important;}
+.font18 *{font-size:18px!important;line-height:21px!important;}
+.font20 *{font-size:20px!important;line-height:23px!important;}
+.font22 *{font-size:22px!important;line-height:25px!important;}
+.font24 *{font-size:24px!important;line-height:27px!important;}
+
+/* div com fundo cinza */
+.containerCinza{width:756px;float:left;padding:10px 20px;background-color:#fafafa;margin-bottom:15px;}
+.bordaCinza{border:1px  solid #EAEAEA;}
+
+/* padrão para lista box cinza */
+.contentLista{float:left;}
+.contentLista ul{width:200px;float:left;padding-right:20px;}
+.contentLista ul li{float:left;background:#f1f1f1 url('/images/bg-lista-cinza.gif') repeat-y 0px 0px;width:200px;margin-bottom:10px;padding:0 0 5px 0;min-height:75px;}
+.contentLista ul li span{float:left;background:url('/images/metro-bullet-lista.jpg') no-repeat 0px 17px;width:25px;min-height:49px;padding:26px 0 0 15px;font-size:18px;font-weight:bold;color:#a1a1a1;}
+.contentLista ul li p{float:left;font-size:12px;line-height:15px;font-weight:bold;width:140px;padding:13px 0 0 10px!important;margin:0!important;}
+.contentLista ul li p.umaLinha{padding-top:5px!important;}
+.contentLista ul li p.duasLinhas{padding-top:17px!important;}
+.contentLista ul li p.quatroLinhas{padding-top:6px!important;}
+
+/* legendas */
+.legenda{float:left;display:block;color:#b6b6b6;font-size:12px;padding:10px 0px 5px 0px;border-bottom:1px solid #ececec;margin-bottom:25px;}
+        
+/* css padrão para as subhomes */
+.area{position:relative;overflow:hidden;float:left;padding-right:8px;}
+.area img{cursor:pointer;}
+.area .hover{position:relative;left:0;overflow:hidden;z-index:10;cursor:pointer;}
+.area .offscreen{left:-198px;}
+.area .hover .hover-content{position:absolute;top:60px;left:0;z-index:4;padding:6px 15px 0px;background:url('/images/cor-box.png') repeat 0px 0px;}
+.area .hover .hover-content .texto span{color:#fff;font-weight:bold;height:37px;float:left;padding-top:15px;text-transform:uppercase;}
+.area .hover .hover-content .texto span.duasLinhas{padding-top:5px;height:44px;}
+.area .hover .hover-content .texto span.duasLinhasTrens{padding-top:5px;height:44px;font-size:14px!important;line-height:17px!important;}
+/*.area .hover .hover-content .texto span.tresLinhas a{font-size:14px!important;line-height:15px!important;}*/
+.area .hover .hover-content .texto span.tresLinhas, .area .hover .hover-content .texto span.tresLinhas a{padding-top:5px;height:44px;font-size:14px!important;line-height:17px!important;}
+.area .hover .hover-content .texto span.Trens{padding-top:1px;height:49px;font-size:12px!important;line-height:14px!important;}
+
+
+.area .hover .hover-content .texto div{clear:both;color:#fff;}
+.area .hover .hover-content .texto span, .area .hover .hover-content .texto span a{font-size:16px!important;line-height:19px!important;}
+/*.area .hover .hover-content .texto span, .area .hover .hover-content .texto span.DuasLinhas a{padding-top:2px;font-size:11px!important;line-height:16px!important;}*/
+.area .hover .hover-content .texto div, .area .hover .hover-content .texto div a{font-size:14px!important;line-height:17px!important;}
+.area .hover .hover-content .texto div, .area .hover .hover-content .texto div.rot a{font-size:12px!important;line-height:14px!important;}
+
+.area.semEspaco{padding-right:0px!important;}
+.area a{color:#fff;}
+.area .hover{top:-120px;}
+
+/* formatacao da tabela padrao */
+.tabelaPadrao{width:100%;}
+.tabelaPadrao tr th, .tabelaPadrao tr td{text-align:left;line-height:30px;padding-left:18px;border-right:7px solid #fff;border-bottom:1px solid #fff;}
+.tabelaPadrao thead tr.cabecalho th{color:#fff;background:#285083;}
+.tabelaPadrao thead tr.cabecalho th.estacao{color:#285083;background:url('/images/icone-metro-azul.gif') no-repeat 0px 0px;padding-left:40px;}
+.tabelaPadrao thead tr.subCabecalho th{background:#d4d4d4;}
+.tabelaPadrao tbody tr td{background:#f2f2f2;}
+.tabelaPadrao tr .noBorderRight{border-right:none!important;}
+
+/* tabela padrao um */
+.tabelaPadraoUm{width:100%;float:left;}
+.tabelaPadraoUm .ultimaTrThead td{border-top: 4px solid #fff; background-color: #dad8d9;padding: 5px 10px; font-weight: bold; border-right: 8px solid #fff; font-size:10px; }        
+.tabelaPadraoUm tr td{padding:8px 10px;background-color:#fafafa;border-bottom:2px solid #fff;vertical-align:middle;text-align:center;border-right: 8px solid #fff; font-size:10px;}        
+.borderRightZero{border-right:none!important;}
+   
+
+
+/* lateral direita
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+#guardaLateralDireita{float:left;width:192px;}
+#lateralDir{float:left;background:#f2f2f2;padding:10px 0px 10px 10px;}
+
+/* lateral direita > direto do metro */
+#lateralDir *,
+#lateralDir #diretoMetro ul li *,
+#lateralDir #paraOndeVai ul li *{font-size:12px!important;line-height:15px!important;}
+#lateralDir h2{font-size:14px!important;line-height:17px!important;color:#6a6a6a;margin:0px;padding:0px;}
+#lateralDir #diretoMetro,
+#lateralDir #diretoMetro ul,
+#lateralDir #diretoMetro ul li{float:left;width:172px;}
+#lateralDir #diretoMetro{border-bottom:5px solid #fff;}
+#lateralDir #diretoMetro ul{padding-top:12px;}
+#lateralDir #diretoMetro ul li{margin-bottom:5px;}
+#lateralDir #diretoMetro .linha{float:left; width:160px; color:#fff;padding:0px 3px 0px 3px;font-size:12px;font-weight:bold;}
+#lateralDir #diretoMetro .l1{background:#285083;}
+#lateralDir #diretoMetro .l2{background:#006d58;}
+#lateralDir #diretoMetro .l3{background:#df3f31;}
+#lateralDir #diretoMetro .l5{background:#8c3583;}
+#lateralDir #diretoMetro .l15{background:#c0c0c0;}
+#lateralDir #diretoMetro .status{float:left;text-align:left;padding:0px 3px 0px 3px; font-size:10px!important; color:#FFF;}
+#lateralDir #diretoMetro .status a{font-size:10px!important; color:#FFF;}
+#lateralDir #diretoMetro .verde{width:172px; height:30px; background:url('../sua-viagem/images/linhas/direto-do-metro-normal-bullet.png') no-repeat 146px 4px;}
+#lateralDir #diretoMetro .vermelho{width:172px; height:30px; background:url('../sua-viagem/images/linhas/direto-do-metro-paralisado-bullet.png') no-repeat 146px 4px;}
+#lateralDir #diretoMetro .amarelo{width:172px; height:30px; background:url('../sua-viagem/images/linhas/direto-do-metro-em-analise-bullet.png') no-repeat 146px 4px;}
+#lateralDir #diretoMetro #atualEm{width:172px;float:left;text-align:right;font-size:12px;padding:13px 0px 16px 0px;}
+
+/* lateral direita > para onde vai */
+#lateralDir #paraOndeVai{float:left;width:172px;padding-top: 10px;}
+#lateralDir #paraOndeVai .combo{float:left;width:172px;}
+#lateralDir #paraOndeVai .combo.embarque{padding:7px 0px 14px 0px;}
+#lateralDir #paraOndeVai .combo label{float:left;font-size:12px;font-weight:bold;padding-bottom:6px;}
+#lateralDir #paraOndeVai .combo select{float:left;width:170px;height:20px;}
+
+/* lateral direita > cadastre-se */
+#cadastreSe{float:right;height:70px;width:181px;color:#fff;padding:8px 0px 0px 10px;margin-top:14px;margin-left:0px;}
+#cadastreSe div{font-size:18px!important;line-height:21px!important;}
+#cadastreSe p{float:left;width:182px;padding-top:10px;padding-bottom:6px;}
+#cadastreSe p, #cadastreSe a{color:#fff;font-size:12px!important;line-height:15px!important;}
+
+/* Arquiteturas
+---------------------------------------------------------------------------------------------------------------------------------------------------*/
+.lateralEsquerdaArquiteturaLinhas{width:520px;float:left;}
+.lateralDireitaArquiteturas{width:245px;float:right;}
+
+/* rodape
+--------------------------------------------------------------------------------------------------------------------------------------------------- */
+#footer{width:990px;margin:auto;}
+#footer #contentFooter{width:990px;float:left;background:#f3f3f3;padding-bottom:15px;margin-top:20px;}
+#superiorFooter{float:left;width:970px;padding:30px 0px 20px 20px;border-bottom:1px solid #d5d5d5;}
+#superiorFooter #metroSp{float:left;width:970px;}
+#superiorFooter #metroSp span{float:left;padding-left:10px;}
+#superiorFooter #logosFoot{float:left;width:968px;  }
+#superiorFooter #logosFoot li{float:left;padding-right:20px; }
+#superiorFooter #logosFoot .posicionaImgRodape{padding-top:43px;}
+#superiorFooter #logosFoot #ultimaLiLogos{padding-right:20px!important; width:199px; }
+#superiorFooter #logosFoot li img{float:left;}
+
+#inferiorFooter{width:980px;float:left;font-size:11px;padding:20px 0px 0px 20px;}
+/*#inferiorFooter ul#linksFooter{width:780px;float:left; }*/
+#inferiorFooter ul#linksFooter{width:970px;float:left; }
+#inferiorFooter ul#linksFooter li{float:left;padding-right:31px; }
+#inferiorFooter ul#linksFooter li#liSuaViagemRodape{padding-right:0px;}
+
+#inferiorFooter ul#linksFooter li a{font-weight:bold;}
+#inferiorFooter ul#linksFooter li ul{margin-top:15px;}
+#inferiorFooter ul#linksFooter li ul li{float:none;padding:0px;}
+#inferiorFooter ul#linksFooter li ul li a{font-weight:normal;font-size:11px;line-height:14px;}
+
+#inferiorFooter #informacoes{float:left;}
+#inferiorFooter #informacoes li#centralInf{margin-bottom:16px;font-size:12px;font-weight:bold;}
+#inferiorFooter #informacoes li{font-size:11px;line-height:14px;}
+#inferiorFooter #informacoes li strong{float:left;width:80px;}
+
+#inferiorFooter #redeSocialRodape {float:left; width: 190px; margin: 40px 0px 0px 0px; border-top: 1px solid #D5D5D5;}
+#inferiorFooter #redeSocialRodape li {float:left; padding: 0px 7px; margin-top: 15px;}
+
+/* rodape - english */
+#inferiorFooter.en{padding:25px 0px 0px 70px;}
+#inferiorFooter.en ul#linksFooter{width:auto;}
+#inferiorFooter.en ul#linksFooter li{padding-right:50px;}
+#inferiorFooter.en ul#linksFooter li.liSuaViagemRodape{padding-right:20px;}
+#inferiorFooter.en ul#linksFooter li#ultimoItemEn{padding-right:0px}
+#inferiorFooter.en ul#linksFooter li ul li{float:none;padding:0px;}
